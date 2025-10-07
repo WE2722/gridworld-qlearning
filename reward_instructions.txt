@@ -1,0 +1,18 @@
+Summary of Changes
+Issue Old Behavior New Behavior
+Agent hits obstaclePasses through OR terminates with -1Gets -0.1 penalty, stays in place, continues
+Agent hits wallUndefined or passes throughGets -0.1 penalty, stays in place, continues
+Agent hits other agentUndefinedGets -1 penalty, episode terminatesOverlapping positionsSilent failureClear error messageGoal on obstacle
+Unreachable goalPrevented at configuration
+Reward Structure Summary
+EventRewardEpisode Terminates?Reach goal+1.0 Yes
+Collide with other agent-1.0 Yes
+Bump into obstacle-0.1 No
+Bump into wall-0.1 No
+Normal move0.0 No
+This structure encourages the agent to:
+
+Find the shortest path to the goal (+1.0)
+Avoid other agents completely (-1.0 terminal penalty)
+Minimize unnecessary bumping (-0.1 per bump)
+Learn efficient navigation strategies
