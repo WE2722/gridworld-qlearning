@@ -423,7 +423,6 @@ class QLearningAgent:
                     done = True
             if (ep+1) % (self.episodes//5) == 0:
                 print(f"Q-Learning progress: episode {ep+1}/{self.episodes}")
-                time.sleep(0.05)
         self.policy = np.argmax(self.Q, axis=2)
         print(f"Q-Learning Q-values{' (Reward Shaping)' if self.reward_shaping else ''}:")
         print(self.Q)
