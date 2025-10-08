@@ -218,6 +218,9 @@ def main():
         goals_dynamic = st.checkbox("Goals move randomly", value=False)
         
         # Configure obstacles
+        st.markdown("**Obstacles**")
+        n_obstacles = st.number_input("Number of Obstacles", min_value=0, max_value=20, value=2)
+        
         obstacles_pos = []
         if n_obstacles > 0:
             if not use_default_goal:
@@ -250,6 +253,7 @@ def main():
         # Other Agents
         st.markdown("**Other Agents**")
         n_other_agents = st.number_input("Number of Other Agents", min_value=0, max_value=10, value=0)
+        
         other_agents_pos = []
         other_agents_dynamic = False
         if n_other_agents > 0:
