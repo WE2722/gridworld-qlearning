@@ -179,6 +179,10 @@ def main():
             rows = st.number_input("Grid Rows", min_value=2, max_value=20, value=5)
             cols = st.number_input("Grid Columns", min_value=2, max_value=20, value=5)
             
+            # Training Episodes
+            st.subheader("🎓 Training")
+            episodes = st.number_input("Training Episodes", min_value=10, max_value=10000, value=200)
+            
             # Goals
             st.markdown("**Goals**")
             n_goals = st.number_input("Number of Goals", min_value=1, max_value=10, value=1)
@@ -187,10 +191,6 @@ def main():
             # Obstacles
             st.markdown("**Obstacles**")
             n_obstacles = st.number_input("Number of Obstacles", min_value=0, max_value=20, value=2)
-            
-            # Training
-            st.subheader("🎓 Training")
-            episodes = st.number_input("Training Episodes", min_value=10, max_value=10000, value=200)
         
         # Configure goals
         if use_default_goal:
