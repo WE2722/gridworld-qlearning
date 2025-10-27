@@ -1,0 +1,37 @@
+======================================================================
+GridWorld Q-Learning Training Report
+======================================================================
+
+Generated: 2025-10-06 21:16:14
+
+ENVIRONMENT CONFIGURATION
+----------------------------------------------------------------------
+Grid Size: 5x5
+Goals: 2 at [[2, 3], [4, 1]]
+  Dynamic: False
+Obstacles: 2 at [[1, 2], [2, 3]]
+  Dynamic: False
+Other Agents: 2 at [[2, 1], [3, 2]]
+  Dynamic: True
+Max Steps per Episode: 100
+
+TRAINING CONFIGURATION
+----------------------------------------------------------------------
+Episodes: 200
+Learning Rate (alpha): 0.1
+Discount Factor (gamma): 0.9
+Exploration Rate (epsilon): 0.1
+Reward Shaping: False
+
+TRAINING RESULTS
+----------------------------------------------------------------------
+Training Time: 0.30 seconds
+Episodes Completed: 200
+Average Reward: -0.7950
+Final Episode Reward: -1.0000
+Best Episode Reward: 1.0000
+Worst Episode Reward: -1.8000
+Final Q-Delta: 5.732453e-02
+Convergence: No
+
+======================================================================

@@ -1,0 +1,8 @@
+gymnasium>=0.28.0
+numpy>=1.21.0
+pygame>=2.1.0
+matplotlib>=3.5.0
+imageio>=2.19.0
+pillow>=9.0.0
+streamlit>=1.28.0
+torch>=2.8.0

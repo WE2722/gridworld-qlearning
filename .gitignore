@@ -1,0 +1,66 @@
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (optional - remove if you want to commit outputs)
+output/models/*.npy
+output/gifs/*.gif
+output/reports/*.txt
+
+# Keep output directory structure
+!output/.gitkeep
+!output/models/.gitkeep
+!output/plots/.gitkeep
+!output/gifs/.gitkeep
+!output/reports/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+EOF
