@@ -104,7 +104,10 @@ gridworld-qlearning/
 ├── requirements.txt                    # Python dependencies
 ├── README.md                          # This file
 ├── USER_GUIDE.md                      # Detailed user guide
+<<<<<<< HEAD
 ├── GITHUB_SETUP.md                    # GitHub setup instructions
+=======
+>>>>>>> c508dcdad35659ecf690dcd614a41bb5b702b04f
 ├── quickstart.sh                      # Setup script (Linux/macOS)
 ├── quickstart.bat                     # Setup script (Windows)
 │
@@ -1527,9 +1530,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration:
 
+<<<<<<< HEAD
 - **GitHub Issues**: [Create an issue](https://github.com/yourusername/gridworld-qlearning/issues)
 - **GitHub Discussions**: [Join the discussion](https://github.com/yourusername/gridworld-qlearning/discussions)
 - **Email**: your.email@example.com
+=======
+- **GitHub Issues**: [Create an issue](https://github.com/WE2722/gridworld-qlearning/issues)
+- **GitHub Discussions**: [Join the discussion](https://github.com/WE2722/gridworld-qlearning/discussions)
+- **Email**: wiame.el.hafid27@example.com
+>>>>>>> c508dcdad35659ecf690dcd614a41bb5b702b04f
 
 ## 🌟 Star History
 
@@ -1548,6 +1557,7 @@ If you find this project useful:
 
 ---
 
+<<<<<<< HEAD
 **Made with ❤️ for the Reinforcement Learning community**
 
 **Start learning today**: `streamlit run app.py`# 🤖 GridWorld Q-Learning Reinforcement Learning Project
@@ -2159,4 +2169,6 @@ For questions, suggestions, or issues:
 
 **🌟 If you find this project useful, please consider giving it a star!**
 
+=======
+>>>>>>> c508dcdad35659ecf690dcd614a41bb5b702b04f
 **Made with ❤️ for the Reinforcement Learning community**
